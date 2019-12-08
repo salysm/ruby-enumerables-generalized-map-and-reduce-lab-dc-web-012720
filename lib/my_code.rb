@@ -17,5 +17,7 @@ def reduce(array_of_values, startingPoint = 0)
   end
   
   if myTotes == 0
+    myTotes = true
+  end
   myTotes
 end
