@@ -3,4 +3,5 @@ def map(array_of_values)
   while i < array_of_values.length do
     newArray.push(yield(array_of_values[i]))
   end
+  newArray
 end
