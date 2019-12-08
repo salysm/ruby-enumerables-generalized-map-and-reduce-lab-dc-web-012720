@@ -15,5 +15,7 @@ def reduce(array_of_values, startingPoint = 0)
     myTotes = yield(myTotes, array_of_values[i])
     i += 1
   end
+  
+  if myTotes == 0
   myTotes
 end
